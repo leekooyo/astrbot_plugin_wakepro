@@ -4,4 +4,4 @@ desc: AstrBot唤醒流水线：阻塞判断 → 指令屏蔽 → 智能唤醒 �
 help: 略
 version: v2.2.3
 author: Zhalslar
-repo: https://github.com/Zhalslar/astrbot_plugin_wakepro
+repo: https://github.com/leekooyo/astrbot_plugin_wakepro
