@@ -81,7 +81,7 @@ WakePro 是 AstrBot 的高阶唤醒插件，把「能否唤醒」拆成一套固
 
 ## 📦 安装
 
-在astrbot的插件市场搜索astrbot_plugin_wakepro，点击安装即可
+在 AstrBot 中选择「通过仓库地址安装」，填写 `https://github.com/leekooyo/astrbot_plugin_wakepro`。本仓库基于 [Zhalslar 原项目](https://github.com/Zhalslar/astrbot_plugin_wakepro) 独立维护，维护差异见 [UPSTREAM.md](UPSTREAM.md)。安装后在测试群检查唤醒与屏蔽效果；`global_blacklist` 默认为空，`block.block_qqbot` 默认开启。机器人账号区间目前写在 `core/step/block.py`，更换 QQ 环境前应核对该规则。
 
 ## ⌨️ 配置
 
@@ -102,4 +102,4 @@ WakePro 是 AstrBot 的高阶唤醒插件，把「能否唤醒」拆成一套固
 
 ## 📌 注意事项
 
-- 想第一时间得到反馈的可以来作者的插件反馈群（QQ群）：460973561（不点star不给进）
+- 此维护版的问题请在本仓库提交 Issue。
