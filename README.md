@@ -1,17 +1,16 @@
 <div align="center">
 
-![:name](https://count.getloli.com/@astrbot_plugin_wakepro?name=astrbot_plugin_wakepro&theme=minecraft&padding=6&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
 # astrbot_plugin_wakepro
+
 
 _✨ 唤醒增强插件 ✨_
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![AstrBot](https://img.shields.io/badge/AstrBot-4.0%2B-orange.svg)](https://github.com/Soulter/AstrBot)
-[![GitHub](https://img.shields.io/badge/作者-Zhalslar-blue)](https://github.com/Zhalslar)
 
 </div>
+
+> 本仓库由 [leekooyo](https://github.com/leekooyo) 维护，基于 [Zhalslar 的原项目](https://github.com/Zhalslar/astrbot_plugin_wakepro)；安装和更新请使用本仓库地址。原始基线见 [UPSTREAM.md](UPSTREAM.md)。
 
 ## 🤝 介绍
 
@@ -81,7 +80,7 @@ WakePro 是 AstrBot 的高阶唤醒插件，把「能否唤醒」拆成一套固
 
 ## 📦 安装
 
-在 AstrBot 中选择「通过仓库地址安装」，填写 `https://github.com/leekooyo/astrbot_plugin_wakepro`。本仓库基于 [Zhalslar 原项目](https://github.com/Zhalslar/astrbot_plugin_wakepro) 独立维护，维护差异见 [UPSTREAM.md](UPSTREAM.md)。安装后在测试群检查唤醒与屏蔽效果；`global_blacklist` 默认为空，`block.block_qqbot` 默认开启。机器人账号区间目前写在 `core/step/block.py`，更换 QQ 环境前应核对该规则。
+在 AstrBot 中选择「通过仓库地址安装」，填写 `https://github.com/leekooyo/astrbot_plugin_wakepro`。本仓库基于 [Zhalslar 原项目](https://github.com/Zhalslar/astrbot_plugin_wakepro) 独立维护，维护差异见 [UPSTREAM.md](UPSTREAM.md)。安装后在测试群检查唤醒与屏蔽效果；`global_blacklist` 默认为空，`block.block_qqbot` 默认开启。机器人账号区间目前写在相关步骤与工具模块的 `BOT_RANGES` 中，更换 QQ 环境前应核对这些规则。
 
 ## ⌨️ 配置
 
@@ -91,14 +90,9 @@ WakePro 是 AstrBot 的高阶唤醒插件，把「能否唤醒」拆成一套固
 
 正常发消息即可生效
 
-### 效果图
+## 反馈与维护
 
-## 👥 贡献指南
-
-- 🌟 Star 这个项目！（点右上角的星星，感谢支持！）
-- 🐛 提交 Issue 报告问题
-- 💡 提出新功能建议
-- 🔧 提交 Pull Request 改进代码
+此维护版的问题和改进请在本仓库提交 Issue 或 Pull Request。上游版本会在核对差异后手动合并。
 
 ## 📌 注意事项
 
