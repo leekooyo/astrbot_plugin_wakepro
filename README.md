@@ -1,8 +1,6 @@
 <div align="center">
 
-
 # astrbot_plugin_wakepro
-
 
 _✨ 唤醒增强插件 ✨_
 
@@ -11,6 +9,8 @@ _✨ 唤醒增强插件 ✨_
 </div>
 
 > 本仓库由 [leekooyo](https://github.com/leekooyo) 维护，基于 [Zhalslar 的原项目](https://github.com/Zhalslar/astrbot_plugin_wakepro)；安装和更新请使用本仓库地址。原始基线见 [UPSTREAM.md](UPSTREAM.md)。
+
+**当前版本：v2.2.3。** 版本号以 [metadata.yaml](metadata.yaml) 为准。
 
 ## 🤝 介绍
 
@@ -82,18 +82,10 @@ WakePro 是 AstrBot 的高阶唤醒插件，把「能否唤醒」拆成一套固
 
 在 AstrBot 中选择「通过仓库地址安装」，填写 `https://github.com/leekooyo/astrbot_plugin_wakepro`。本仓库基于 [Zhalslar 原项目](https://github.com/Zhalslar/astrbot_plugin_wakepro) 独立维护，维护差异见 [UPSTREAM.md](UPSTREAM.md)。安装后在测试群检查唤醒与屏蔽效果；`global_blacklist` 默认为空，`block.block_qqbot` 默认开启。机器人账号区间目前写在相关步骤与工具模块的 `BOT_RANGES` 中，更换 QQ 环境前应核对这些规则。
 
-## ⌨️ 配置
+## 配置与使用
 
-请前往插件配置面板进行配置
-
-## 🤝 使用说明
-
-正常发消息即可生效
+在 AstrBot 插件配置面板调整各阶段的开关、阈值和名单。保存并重载后，在测试群发送普通消息、@ 消息和指令，分别确认唤醒与屏蔽结果。
 
 ## 反馈与维护
 
 此维护版的问题和改进请在本仓库提交 Issue 或 Pull Request。上游版本会在核对差异后手动合并。
-
-## 📌 注意事项
-
-- 此维护版的问题请在本仓库提交 Issue。
